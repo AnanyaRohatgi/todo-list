@@ -8,8 +8,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	color: #FFF;
-	background-color: var(--dark);
+	color: blue;
+	background-color: rgb(15, 14, 63) ;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 header h1{ 
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: pink;
 	margin-bottom: 1rem;
 }
 
@@ -39,23 +39,23 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-	background-color: var(--darker);
+	background-color: darkblue;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
-	color: var(--light);
+	color: lightblue;
 	font-size: 1.25rem;
 }
 
 #new-task-input::placeholder {
-	color: var(--grey);
+	color: pink;
 }
 
 #new-task-submit {
-	color: var(--pink);
+	color: red;
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-image: linear-gradient(to right, orange, yellow);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	cursor: pointer;
@@ -84,14 +84,14 @@ main {
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color:pink;
 	margin-bottom: 1rem;
 }
 
 #tasks .task {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--darkest);
+	background-color: rgb(15, 14, 63) ;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-bottom: 1rem;
@@ -102,7 +102,7 @@ main {
 }
 
 .task .content .text {
-	color: var(--light);
+	color: lightblue;
 	font-size: 1.125rem;
 	width: 100%;
 	display: block;
@@ -110,7 +110,7 @@ main {
 }
 
 .task .content .text:not(:read-only) {
-	color: var(--pink);
+	color: red;
 }
 
 .task .actions {
@@ -136,7 +136,7 @@ main {
 }
 
 .task .actions .edit {
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-image: linear-gradient(to right, orange, yellow);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
